@@ -1,0 +1,66 @@
+
+* {
+	font-family: 'Nunito Sans', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+    
+.piedepagina{
+    padding: 30px 30px;
+    margin: auto;
+    background-color: #2ab9a5;
+}
+
+ .tarjeta__titulotarjeta {
+  color:#1CAF68;
+  padding: 5%;
+  font-weight: bold ;
+  
+}
+
+.tarjeta__imagentarjeta{
+    border-radius: 2rem;
+}
+
+.tarjeta__botonpersonalizado{
+    color: #FFF;
+    background-color: #1CAF68;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navegacion__custom {
+    background-color: #2ab9a5;
+    padding: 3px;
+}
+
+
+/** estilos de seccion 1**/
+
+
+#section1 {
+    background: linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.img1 {
+    display: flex;
+
+    justify-content: center;
+    }
+
+.txt1 {
+    margin: auto;
+    margin-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+    color: #FFF;
+}
+
+.parr {
+    color: #FFF  ;
+}

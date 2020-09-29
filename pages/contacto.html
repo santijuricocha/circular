@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> Circular sitio web</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+	<header>
+		<h1>Logo sitio Web Circular</h1>
+		<nav>
+			<ul>
+		        <li><a href="index.html">Inicio</a></li>
+				<li><a href="que-hacemos.html">Que hacemos</a></li>
+				<li><a href="empeza-a-reciclar.html">Empeza a reciclar</a></li>
+				<li><a href="comunidad.html">Comunidad</a></li>
+				<li><a href="contacto.html">Contacto</a></li>			
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h2>Animate y contactanos</h2>
+		<p>Queremos conocerte mejor, contanos si queres reciclar, aprender o colaborar en nuestro equipo</p>
+		<form action="gracias.html">
+            <fieldset>
+			    <legend>Deja tu contacto aquí</legend>
+			    <label for="nombreyApellido">Nombre y Apellido</label>
+			    <input type="text" name="nombreyApellido" id="nombreyApellido" placeholder="escribe tu nombre"><br>
+			    <label for="email">Correo electronico</label>
+			    <input type="email" id="email" name="correoElectronico" placeholder=" ej minombre@gmail.com">
+			    <label>Genero</label>
+			    <input type="radio" name="genero" id="generomasculino" value="masculino"> Masculino
+			    <input type="radio" name="genero" id="generofemenino" value="femenino"> Femenino
+			    <input type="radio" name="genero" id="generootro" value="otro"> Otro
+			    <label for="cualEsElMotivoDeTuConsulta">¿Cual es el motivo de tu consulta?</label>
+			    <select name="cualEsElMotivoDeTuConsulta" id="cualEsElMotivoDeTuConsulta">
+				    <option value="1" selected> seleccione </option>
+				    <option value="2"> Soy reciclador y quiero unirme</option>
+				    <option value="3"> Quiero aprender a reciclar</option>
+				    <option value="4"> Me interesa su contenido</option>
+			    </select>
+			    <label for="mensaje">Mensaje</label>
+			    <textarea name="mensaje" id="mensaje" placeholder="Dejanos tu mensaje"></textarea>
+			    <input type="reset" name="borrar datos">
+			    <input type="submit" name="boton">
+		    </fieldset>
+		</form>
+  </section>
+  
+	<footer>
+		<p>Descripción de como descargar app</p>
+	</footer>
+</body>
+</html>
