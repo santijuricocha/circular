@@ -1,10 +1,36 @@
 
 * {
-	font-family: 'Nunito Sans', sans-serif !important;
+	font-family: 'Nunito Sans', sans-serif ;
     margin: 0;
     padding: 0;
 }
+
+h1, h2, h3 {
+    font-family: "Paytone One";
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2 rem;
+    font-kerning: auto;
+}
+
+/** estilos de navegacion**/
+.navegacion {
+    background-color: #2ab9a5 !important;
+    height: 8rem;
     
+}
+
+.navegacion__custom {
+    background-color: #2ab9a5;
+    padding: 3px;
+}
+
+.nav-item {
+color: cornsilk;
+}
+
 .piedepagina{
     padding: 30px 30px;
     margin: auto;
@@ -30,12 +56,6 @@
     font-weight: bold;
 }
 
-.navegacion__custom {
-    background-color: #2ab9a5;
-    padding: 3px;
-}
-
-
 /** estilos de seccion 1**/
 
 
@@ -43,24 +63,27 @@
     background: linear-gradient(150deg, #97c74e 0%, #2ab9a5 100%);
     margin-top: 80px;
     margin-bottom: 80px;
+    padding: 20px;
 
 }
 
 .img1 {
     display: flex;
-
     justify-content: center;
     }
 
 .txt1 {
     margin: auto;
-    margin-top: 80px;
+    margin-top: 30px;
     padding-right: 30px;
     padding-left: 30px;
     text-align: left;
     color: #FFF;
 }
 
-.parr {
-    color: #FFF  ;
+.parrafo1 {
+    color: #FFF ;
+    padding-top: 1rem;
+    padding-bottom: 1rem ;
+    font-size: 1,25rem;
 }
