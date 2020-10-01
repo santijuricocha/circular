@@ -69,8 +69,8 @@ color: cornsilk;
 
 #section2 {
     background: #FFF;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 20px;
 
 }
@@ -93,7 +93,7 @@ color: cornsilk;
     color: #000000 ;
     padding-top: 1rem;
     padding-bottom: 1rem ;
-    font-size: 1,25rem;
+    font-size: 1.5rem;
 }
 
 
@@ -104,6 +104,7 @@ color: cornsilk;
   color:#1CAF68;
   padding: 5%;
   font-weight: bold ;
+  font-size: 1.5rem;
   
 }
 
@@ -119,6 +120,52 @@ color: cornsilk;
     font-weight: bold;
 }
 
+/* contacto */
+
+#mail{
+    background-color: #1CAF68;
+    text-align: center;
+  }
+  
+  .contenido{
+    padding: 30px;
+  }
+  
+  .contenido p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 20px;
+  }
+  
+  .contenido .mail-form{
+    background-color: none;
+    display: flex;
+    border: 2px solid #97c74e;
+    height: 50px;
+    border-radius: 50px;
+    margin: 0 auto;
+  }
+  
+  .mail-form p{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .mail-form a{
+    color: white;
+    padding-top: 9px;
+    margin-left: auto;
+    padding-right: 1rem;
+    font-weight: bolder;
+  }
+
+.suscript-mail
+{justify-content: right;
+
+}
 
 
 /** estilos de footer**/
